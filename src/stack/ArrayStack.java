@@ -4,7 +4,7 @@ public class ArrayStack<E> implements Stack<E> {
 	//default capacity
 	private static final int CAPACITY = 500;
 	//generic array used for storage
-	private E[]data;
+	private E[] data;
 	//index of the top element in stack
 	private int t = -1;
 	
